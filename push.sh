@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Hello World!"
 
-rm -rf /root/PushRepositories/build/
+rm -rf /root/PushRepositories/build/*
 cd /root/PushRepositories/build/
 
 #设置变量key，存储密码的所有可能性（密码库），如果还需要其他字符请自行添加其他密码字符
