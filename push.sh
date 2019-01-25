@@ -1,13 +1,14 @@
 #!/bin/bash
 echo "Hello World!"
+
 function rand(){
     min=$1
     max=$(($2-$min+1))
-    num=$(($RANDOM+1000000000)) #增加一个10位的数再求余
+    num=$(cat /dev/urandom | head -n 10 | cksum | awk -F ' ' '{print $1}')
     echo $(($num%$max+$min))
 }
  
-rnd=$(rand 400000 500000)
+rnd=$(rand 100 500)
 echo $rnd
 touch $rnd
 git add .
