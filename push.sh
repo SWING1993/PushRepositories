@@ -20,7 +20,7 @@ done
 
 touch $pass
 
-git add .
+git add -A
 git commit -m 'orz -.-'
-git push
+#git push
 
