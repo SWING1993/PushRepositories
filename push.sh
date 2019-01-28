@@ -16,7 +16,7 @@ touch $pass
 
 cd /root/GitRepositories/PushRepositories/
 git add --all .
-git commit -m 'orz -.-'
+git commit -m '同步git仓库 $_$'
 git push origin master
 git push gitlab master
 
