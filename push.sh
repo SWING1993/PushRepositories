@@ -23,7 +23,7 @@ git push gitlab master
 
 
 # orange
-cd /root/GitRepositories/orange
+cd /root/GitRepositories/orange/
 git pull origin
 git push github --all
 git push github --tags
@@ -36,4 +36,22 @@ git push github --all
 git push github --tags
 
 
+# TomatoPulp
+cd /root/GitRepositories/TomatoPulp/
+git pull origin
+git push github --all
+git push github --tags
 
+
+# index
+cd /root/GitRepositories/index/
+git pull origin
+git push github --all
+git push github --tags
+
+
+# Tomato
+cd /root/GitRepositories/Tomato/
+git pull origin
+git push github --all
+git push github --tags
