@@ -19,3 +19,21 @@ git add --all .
 git commit -m 'orz -.-'
 git push origin master
 git push gitlab master
+
+
+
+# orange
+cd /root/GitRepositories/orange
+git pull origin
+git push github --all
+git push github --tags
+
+
+# MPM_Packstone
+cd /root/GitRepositories/MPM_Packstone/
+git pull origin
+git push github --all
+git push github --tags
+
+
+
