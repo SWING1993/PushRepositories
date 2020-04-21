@@ -2,7 +2,10 @@
 echo "Hello World !"
 rm -rf /root/GitRepositories/orz/build/*
 cd /root/GitRepositories/orz/build/
-touch $RANDOM
+touch config
+
+echo "$RANDOM">>config
+
 cd /root/GitRepositories/orz/
 git add --all .
 git commit -m "update"
